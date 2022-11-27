@@ -19,7 +19,7 @@ window.addEventListener("scroll",changeColor)
     <>
       <div className={color ?"header header-bg":"header"}>
         <Link to="/">
-          <h3>APP</h3>
+          <h3>MY PORTFOLIO</h3>
         </Link>
         <ul className={click ? 'nav-menu active' :'nav-menu'}>
           <li>
