@@ -1,5 +1,6 @@
 import "./FooterStyle.css";
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   FaHome,
   FaPhone,
@@ -49,14 +50,18 @@ const Footer = () => {
           </p>
 
           <div className="social">
-            <FaGithub
-              size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
+          <a href="https://github.com/yadavravi043" >
+          <FaGithub
+          size={20}
+          style={{ color: "#fff", marginRight: "2rem" }}
+          />
+          </a>
+            <a href="https://www.linkedin.com/in/ravi-yadav-8184441a6/">
             <FaLinkedin
-              size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
+            size={20}
+            style={{ color: "#fff", marginRight: "2rem" }}
             />
+            </a>
             <FaTwitter
               size={20}
               style={{ color: "#fff", marginRight: "2rem" }}
