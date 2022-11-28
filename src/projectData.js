@@ -5,7 +5,7 @@ const ProjectData=[
   title:"this is project title",
   text:"text is pending right now",
   view:"https://www.google.com",
-  source:"https://www.google.com"
+  source:"https://github.com/yadavravi043"
 
     },
     {
@@ -13,7 +13,7 @@ const ProjectData=[
   title:"this is project title",
   text:"text is pending right now",
   view:"https://www.google.com",
-  source:"https://www.google.com"
+  source:"https://github.com/yadavravi043"
 
     },
     {
@@ -21,7 +21,7 @@ const ProjectData=[
   title:"this is project title",
   text:"text is pending right now",
   view:"https://www.google.com",
-  source:"https://www.google.com"
+  source:"https://github.com/yadavravi043"
 
     },
 ]
