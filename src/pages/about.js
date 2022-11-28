@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div>
     <Navbar/>
-    <HeroImg2 heading="About" para="About Me"/>
+    <HeroImg2 heading="About" para="I am friendly Web Developer"/>
     <Footer/>
     </div>
   )
