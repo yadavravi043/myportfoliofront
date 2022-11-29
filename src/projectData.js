@@ -1,7 +1,8 @@
 import ravi from'./assets/ravi.jpg'
+import shop from'./assets/shop.jpg'
 const ProjectData=[
     {
-  imgsrc:ravi,
+  imgsrc:shop,
   title:"this is project title",
   text:"text is pending right now",
   view:"https://www.google.com",
