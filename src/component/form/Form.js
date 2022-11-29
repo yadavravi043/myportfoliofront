@@ -3,7 +3,7 @@ import React ,{useRef}from 'react'
 // import emailjs from 'emailjs-com'
 import emailjs from '@emailjs/browser';
 
-const Form = () => {
+const Form = (location) => {
 
  const sendEmail=(e)=>{
     e.preventDefault();
@@ -11,7 +11,7 @@ const Form = () => {
     emailjs.sendForm('service_cbbrdcb', 'template_pz11trk', e.target, 'z3L8r0b7oEq2mF0Gx')
       .then((result) => {
          // console.log(result.text);
-         alert("your mail has been sent successfully")
+         alert("Thank you ,i will get back to you very soon",location.hostname)
       }, (error) => {
            console.log(error.text);
         //alert('Message Failed!!!   please try after some time')
