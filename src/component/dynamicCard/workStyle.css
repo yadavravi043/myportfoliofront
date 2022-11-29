@@ -8,12 +8,12 @@
 }
 .project-container{
     /* background: #fff; */
-    max-width: 1149px;
+    max-width: 1140px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 80px;
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
 }
 .project-card{
     background: #191919;
