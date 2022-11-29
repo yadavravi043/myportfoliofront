@@ -1,21 +1,37 @@
 import './FormStyle.css'
-import React from 'react'
+import React ,{useRef}from 'react'
+// import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser';
 
 const Form = () => {
+
+ const sendEmail=(e)=>{
+    e.preventDefault();
+
+    emailjs.sendForm('service_cbbrdcb', 'template_pz11trk', e.target, 'z3L8r0b7oEq2mF0Gx')
+      .then((result) => {
+         // console.log(result.text);
+         alert("your mail has been sent successfully")
+      }, (error) => {
+           console.log(error.text);
+        //alert('Message Failed!!!   please try after some time')
+      });
+      e.target.reset();
+    }
   return (
     <div className="form">
-      <form>
+      <form   onSubmit={sendEmail}>
        <label>Your Name</label>
-       <input type="text" placeholder='type your name' required/>
+       <input type="text" name='name' placeholder='type your name' required/>
       
        <label>Email</label>
-       <input type="email" placeholder='email' required />
+       <input type="email" name='email' placeholder='email' required />
       
        <label>Subject</label>
-       <input type="text" placeholder='subject' required />
+       <input type="text"  name='subject' placeholder='subject' required />
       
        <label>Message</label>
-       <textarea rows='6' placeholder='type your message here' required />
+       <textarea rows='6'name='message' placeholder='type your message here' required />
 
        <button className='btn' type='submit' >Submit</button>
       
