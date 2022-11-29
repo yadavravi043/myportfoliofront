@@ -8,7 +8,7 @@ import cer5 from'../../assets/cer5.jpg'
 import cer6 from'../../assets/cer6.jpg'
 const Certification = () => {
   return (
-    <div className="work-container">
+    <div className="certificate-container">
     <div className="sports-heading">
     <h1>Certifications</h1>
     </div>

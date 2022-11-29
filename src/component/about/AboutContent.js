@@ -6,7 +6,7 @@ import ravitrophy2 from'../../assets/ravitrophy2.jpg'
 import ravigroup from'../../assets/ravigroup.jpg'
 const AboutContent = () => {
   return (
-    <div className="work-container">
+    <div className="about-container">
     <div className="sports-heading">
     <h1>Sports</h1>
     </div>
