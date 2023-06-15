@@ -14,7 +14,7 @@ const ProjectData=[
     {
       imgsrc:easyhai,
       title:"Easyhaionline  EdTech company",
-      text:"Here i done my 6 month internship in mern stack and learn lots of things",
+      text:"Here i had done  6 months internship in mern stack and work on this website easyhaionline.com",
       view:"",
       source:"https://github.com/yadavravi043"
     
