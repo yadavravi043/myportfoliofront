@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div>
     <Navbar/>
-    <HeroImg2 heading="About" para="I am friendly Web Developer"/>
+    <HeroImg2 heading="About" para="I am a MERN stack Web Developer"/>
     <Certification/>
      <AboutContent/>
     <Footer/>
