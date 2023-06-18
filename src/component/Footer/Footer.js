@@ -56,14 +56,6 @@ const Footer = () => {
             style={{ color: "#fff", marginRight: "2rem" }}
             />
            click for my resume</a>
-           <a href="https://drive.google.com/file/d/1PV8iWIeeump_RVq2vL0CxbMDHx-yyF0O/view?usp=drive_link"
-           style={{color:"#34e8eb"}}
-           >
-           <FaPaperclip
-            size={20}
-            style={{ color: "#fff", marginRight: "2rem" }}
-            />
-           My intern certificate</a>
           <div className="social">
           <a href="https://github.com/yadavravi043" >
           <FaGithub
