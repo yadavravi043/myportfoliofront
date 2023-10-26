@@ -45,10 +45,11 @@ const Footer = () => {
         <div className="right">
           <h4>About Me</h4>
           <p>
-            Hello everyone this is Ravi from computer science engineering
-            background and currently working on MERN stack technology
+          Passionate and forward-thinking Software Developer with a knack for crafting exceptional solutions. My journey has been enriched by the mastery of React.js, Node.js, and the art of database management with MongoDB and PostgreSQL. I've taken on the challenge of harnessing these technologies to build dynamic and responsive applications that thrive on innovation.
+          From crafting engaging user interfaces with React.js to architecting robust server-side solutions with Node.js, and ensuring seamless data management with MongoDB and PostgreSQL, I've embarked on a journey where code meets creativity. I'm dedicated to creating meaningful and efficient software that adds value to every project I undertake.        
+          What truly drives me is the relentless pursuit of excellence in software development, and I'm excited to continue my journey in crafting solutions that make a difference.
           </p>
-           <a href="https://drive.google.com/file/d/1QJ6h288fAHTyuk70Wvi31xVJiiXTfmjb/view?usp=sharing"
+           <a href="https://drive.google.com/file/d/1TDNyIFfEgUZynD3xGrnvaL-V7KHctaQa/view?usp=sharing"
            style={{color:"#34e8eb"}}
            >
            <FaPaperclip
