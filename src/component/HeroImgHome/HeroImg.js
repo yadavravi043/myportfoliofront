@@ -9,14 +9,15 @@ const HeroImg = () => {
         <img className="into-img" src={code} alt="intro-img" />
       </div>
       <div className="content">
-        <p>Hii I am a web developer</p>
-        <h1>MERN DEVELOPER</h1>
+      <h4>Unlocking the Digital World</h4>
+      <p>Welcome to my corner of the web.</p>
+      <h2>SOFTWARE DEVELOPER</h2>
         <div>
           <Link to="/project" className="btn">
-            project
+          Explore Projects
           </Link>
           <Link to="/contact" className="btn">
-            contact
+          Get in Touch
           </Link>
         </div>
       </div>
